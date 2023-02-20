@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revanth Kumar | Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41cb6aede2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><span>R</span>K.</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fas fa-sharp fa-solid fa-rectangle-xmark" onclick="closemenu()" id="close"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()" id="open"></i>
+            </nav>
+
+            <div class="head-text">
+                <div class="hello">Hi,I am</div>
+                <h1><span>R</span>evanth <span>K</span>umar</h1>
+                <p>Developer,Fresher</p>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/mypic.jpg" alt="" class="pcimg">
+                    <img src="./images/pic1.jpg" alt="" class="phoneimg">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p class="subtitle">As a fresh graduate in Computer Science and Engineering, I am a passionate and
+                        dedicated individual with a strong focus on learning and growth. My skills in basic web
+                        development and Data Structures and Algorithms, along with my love for coding, make me a
+                        valuable addition to any team. With strong communication and collaboration skills, I am
+                        committed to delivering high-quality work and contributing to the success of any organization I
+                        am a part of.</p>
+
+                    <div class="title-tabs">
+                        <p class="title-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="title-links" onclick="opentab('projects')">Projects</p>
+                        <p class="title-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>Java,C,C++,Python</li>
+                            <li><span>Web Technologies</span><br>HTML,CSS,Javascript,Bootstrap,Reactjs, Nodejs</li>
+                            <li><span>Database Technologies</span><br>MySql</li>
+                            <li><span>Operating Systems</span><br>Windows,Ubuntu & Android</li>
+                            <li><span>Development Tools</span><br>Visual Studio Code,Git</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Tic-Tac-Toe - Game with System [2020]</span><br>This project is a Tic-tac-toe game
+                                implemented in C language, where one player is the system itself, and it makes random
+                                moves. The game includes error handling, input validation, and handling tie situations.
+                                This project helped me to improve my C programming skills and understand the basic
+                                artificial intelligence concepts.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-current</span><br>B.Tech CSE at JNTUH University College of Engineering
+                                Sultanpur,Sangareddy </li>
+                            <li><span>2017-2019</span><br> Intermediate at Narayana Junior College,Hyderabad</li>
+                            <li><span>2017</span><br>Millennium High School[CBSE],Warangal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----portfolio----- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="workh">My Work</h1>
+            <div class="workcol">
+                <div class="work-col-1">
+                    <img src="./images/work.jpg" alt="">
+                    <div class="workp">
+                        <h3>Counter App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit non doloremque at ratione vel
+                            temporibus tempora pariatur.</p>
+                    </div>
+                </div>
+                <div class="work-col-1">
+                    <img src="./images/work.jpg" alt="">
+                    <div class="workp">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit non doloremque at ratione vel
+                            temporibus tempora pariatur.</p>
+                    </div>
+                </div>
+                <div class="work-col-1">
+                    <img src="./images/work.jpg" alt="">
+                    <div class="workp">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit non doloremque at ratione vel
+                            temporibus tempora pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn2">See More</button>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- --------contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>revanani1801@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91-7287833442</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/abbathini-revanth-kumar-22b3781ba/"><i
+                                class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href="https://github.com/RevanthKumar-gitHub" target="_blank"><i
+                                class="fa-brands fa-github fa-xl"></i></a>
+                        <a href="https://www.facebook.com/abbathini.revanth/"><i
+                                class="fa-brands fa-facebook fa-xl"></i></a>
+                        <a href="https://www.instagram.com/_re_va_18_/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                    <a href="./images/RevanthResume (1).pdf" download class="btn">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © RK.<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxoWZKMubDPC-XCt4C8eOiOMbpqqmr811aNBtoLMuYk6EMbx5Rmn-dKjywyBlbmcMKG/exec';
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    console.log('Success!', response);
+                    let msg = document.getElementById('msg');
+                    msg.style.display = "block";
+                    msg.innerHTML = "Message sent succesfully!";
+                    setTimeout(() => {
+                        msg.innerHTML = "";
+                        msg.style.display = "none";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
