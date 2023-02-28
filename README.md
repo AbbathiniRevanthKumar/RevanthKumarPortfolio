@@ -1,4 +1,4 @@
 # revanthkumarwebsite
 my portfolio
 mywebsitelink
-https://revanthkumar-github.github.io/revanthkumarwebsite/
+hhttps://revanthkumar-github.github.io/RevanthKumarPortfolio/
