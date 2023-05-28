@@ -31,3 +31,14 @@ let closemenu = ()=>{
 let gotoproject = ()=>{
     window.open("https://revanthkumar-github.github.io/City-Weather-App/","_blank");
 }
+
+let gotogit = (id)=>{
+    if(id==1)
+    {
+        window.open("https://github.com/RevanthKumar-gitHub/simpleChatApplication-java","_blank");
+    }
+    if(id==2)
+    {
+        window.open("https://github.com/RevanthKumar-gitHub/C-projects","_blank");
+    }
+}

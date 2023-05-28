@@ -181,6 +181,7 @@ a:hover
     font-weight: 500;
     margin-bottom: 40px;
     color: rgb(255, 0, 128);
+    cursor: pointer;
 }
 
 .tab-contents ul li
