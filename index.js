@@ -27,3 +27,7 @@ let closemenu = ()=>{
     open.style.display = "block";
     sidemenu.style.right = "-200px";
 }
+
+let gotoproject = ()=>{
+    window.open("https://revanthkumar-github.github.io/City-Weather-App/","_blank");
+}
